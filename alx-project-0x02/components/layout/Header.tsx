@@ -6,10 +6,10 @@ const Header: React.FC = () => {
     <header className="bg-gray-100 py-4 shadow-md">
       <nav className="container mx-auto flex space-x-6">
         <Link href="/">
-          <a className="text-lg font-semibold hover:text-gray-700">Home</a>
+          <a className="text-lg font-semibold hover:text-gray-700">Landing</a>
         </Link>
         <Link href="/home">
-          <a className="text-lg font-semibold hover:text-gray-700">Home Page</a>
+          <a className="text-lg font-semibold hover:text-gray-700">Home</a>
         </Link>
         <Link href="/about">
           <a className="text-lg font-semibold hover:text-gray-700">About</a>
